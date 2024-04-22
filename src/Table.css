@@ -1,0 +1,21 @@
+/* Table.css */
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling for large tables */
+  }
+  
+  table {
+    width: 100%; /* Table takes up 100% of the container width */
+    border-collapse: collapse; /* Collapse borders between cells */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Border style for cells */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Background color for header cells */
+    font-weight: bold; /* Bold font for header cells */
+  }
+  
