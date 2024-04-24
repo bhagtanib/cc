@@ -12,7 +12,7 @@ const Journey = () => {
   const tables = [];
   return (
     <div className="journey-page">
-      <h1>From source to solution: My Data Journey </h1>
+      <h1>From Source to Solution: Visualizing My Data Journey </h1>
       <div className="journey-container">
         <div className="journey-knowledge-container journey-dialog">
           <span style={{ fontWeight: 600 }}>KNOWLEDGE SOURCE</span>
