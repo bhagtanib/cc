@@ -52,7 +52,7 @@ const BackgroudPage = ({ aboutRef }) => {
               once: true,
             }}
           >
-            My journey towards software engineering began in high school, fueled
+            My journey towards software engineering  began in high school, fueled
             by a desire to simplify the learning experience for myself and
             others. I started by tinkering with code, building a simple website
             platform for students to share study materials. This project ignited
