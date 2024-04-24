@@ -1,5 +1,6 @@
 export const workExperience = {
-    heading: ["workId", "companyName", "position", "startDate", "endDate", "skillsLearned", "contributionsMade" ],
+    header: "Work Experience",
+    heading: ["workId", "companyName", "position", "startDate", "endDate", "skillsLearned", "Data Stack", "contributionsMade" ],
     schema: {
         workId: "uniqueidentifier",
         companyName: "varchar",
@@ -14,8 +15,9 @@ export const workExperience = {
         companyName: "Treasury4",
         position: "Data Analytics Engineer",
         startDate: "11/15/2021",
-        endDate:  "Present",
-        skillsLearned: "df ",
+        endDate:  "06",
+        skillsLearned: "SQL, ETL, Python, GIT, DevOps,",
+        DataStack: "Azure Cloud, Data Factory, Snowflake, Power BI, MS SQL Server, Sigma Computing, Boomi, DBT",
         contributionsMade: "varchar",
     },
     {
@@ -71,6 +73,7 @@ export const workExperience = {
 }
 
 export const certificate = {
+    header: "Certification",
     heading: ["CertificationId", "CompanyName", "StartDate", "EndDate" ],
     rows: [{
         CertificationId: "abhe2",
@@ -87,6 +90,7 @@ export const certificate = {
 ]
 }
 export const projects = {
+    header: "Project",
     heading: ["projectId", "CompanyName", "StartDate", "EndDate" ],
     rows: [{
         ProjectId: "abhe2",
@@ -98,6 +102,7 @@ export const projects = {
 ]
 }
 export const factsTable = {
+    header: "Analytics",
     heading: ["FactsId", "CompanyName", "StartDate", "EndDate" ],   
     rows: [{
         FactsId: "ceduicw",
