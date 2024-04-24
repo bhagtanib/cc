@@ -56,7 +56,7 @@ const Hero = (aboutRef) => {
               once: true,
             }}
           >
-            I’m a software engineer specializing in building (and occasionally
+            I’m a software engineer  specializing in building (and occasionally
             designing) exceptional digital experiences.{" "}
           </motion.p>
 
