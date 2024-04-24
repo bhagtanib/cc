@@ -2,7 +2,7 @@ import React from "react";
 import "./Table.css";
 
 const Table = ({ tableInfo }) => {
-  console.log(tableInfo)
+  console.log(tableInfo);
   return (
     <div className="table-container">
       <table>
@@ -15,12 +15,13 @@ const Table = ({ tableInfo }) => {
           </tr>
         </thead>
         <tbody>
-          {tableInfo.rows.map((col) => (
-            <tr >
-              <th style={{fontWeight: 300}}>{col.workId}</th>
-              {/* <th style={{fontWeight: 300}}>{col.companyName}</th>
-              <th style={{fontWeight: 300}}>{col.startDate}</th>
-              <th style={{fontWeight: 300}}>{col.EndDate}</th> */}
+          {tableInfo.rows.map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {Object.keys(row).map((key, keyIndex) => (
+                <td key={keyIndex} style={{ fontWeight: 300 }}>
+                  {row[key]}
+                </td>
+              ))}
             </tr>
           ))}
           {/* Add more column headers as needed */}
