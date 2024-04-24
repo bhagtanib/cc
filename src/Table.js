@@ -24,7 +24,6 @@ const Table = ({ tableInfo }) => {
               ))}
             </tr>
           ))}
-          {/* Add more column headers as needed */}
         </tbody>
       </table>
     </div>

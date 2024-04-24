@@ -43,7 +43,7 @@
   top: 50%;
 }
 .journey-application-container {
-  width: 450px;
+  width: 650px;
   position: relative;
 }
 .card-stuff-img1{
@@ -51,7 +51,7 @@
     top: 10px;
     left: 10px;
     height: 200px;
-    width: 180px;
+    width: 280px;
 }
 .card-stuff-img1::after {
   content: ""; /* Empty content */
@@ -84,7 +84,7 @@
     right: 10px;
     top: 10px;
     height: 200px;
-    width: 180px;
+    width: 280px;
 
 }
 .card-stuff-img3{
@@ -92,7 +92,7 @@
     right: 10px;
     top: 230px;
     height: 200px;
-    width: 180px;
+    width: 280px;
 
 } 
 .card-stuff-img4 {
@@ -100,5 +100,5 @@
   top: 270px;
   left: 10px;
   height: 200px;
-  width: 180px;
+  width: 280px;
 }
