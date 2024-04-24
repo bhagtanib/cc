@@ -9,8 +9,8 @@
     transform: scale(1.05);
 }
 .card-heading{
-    background-color: crimson;
-    color: white;
+    background-color: #F2F2F2;
+    color: black;
 }
 .card-rows{
     display: flex;

@@ -60,14 +60,6 @@ export const workExperience = {
         endDate:  "Present",
         skillsLearned: " ",
         contributionsMade: " "
-    },
-    {
-        workId: "ba4f45e8b-7269-42e3-aef2-768d7b19af5d",
-        companyName: "Treasury4",
-        startDate: "15 Nov 2021",
-        endDate:  "Present",
-        skillsLearned: " ",
-        contributionsMade: " "
     }
 ]
 }
