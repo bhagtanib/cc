@@ -15,7 +15,7 @@ const Journey = () => {
       <h1>From source to solution: My Data Journey </h1>
       <div className="journey-container">
         <div className="journey-knowledge-container journey-dialog">
-          <span style={{ fontWeight: 600 }}>Heading 1</span>
+          <span style={{ fontWeight: 600 }}>KNOWLEDGE SOURCE</span>
           <div className="journey-dialog-images">
             {images1.map((imageName) => (
               <img
@@ -28,7 +28,7 @@ const Journey = () => {
           </div>
         </div>
         <div className="journey-mid-container journey-dialog">
-          <span style={{ fontWeight: 600 }}>Heading 1</span>
+          <span style={{ fontWeight: 600 }}>ORCHESTRATE</span>
           <div className="journey-dialog-images">
             {images2.map((imageName) => (
               <img
