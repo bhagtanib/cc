@@ -6,6 +6,7 @@ const Card = ({tableData }) => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const openModal = () => {
+    console.log(tableData)
     setModalVisible(true);
   };
 
@@ -16,7 +17,7 @@ const Card = ({tableData }) => {
   return (
     <div>
       {modalVisible && (
-        <Model tableInfo={workExperience} closeModal={closeModal} />
+        <Model tableInfo={tableData} closeModal={closeModal} />
       )}
       <div className="card-container" onClick={openModal}>
         <div className="card-heading">Work Experience </div>

@@ -38,17 +38,17 @@ const Journey = () => {
           ))}
         </div>
         <div className="journey-application-container journey-dialog">
-          <div className={`card-stuff-img1`} tableData = {workExperience}>
-            <Card />
+          <div className={`card-stuff-img1`} >
+            <Card tableData = {workExperience} />
           </div>
-          <div className={`card-stuff-img2`} tableData = {certificate}>
-            <Card />
+          <div className={`card-stuff-img2`} >
+            <Card tableData = {certificate} />
           </div>
-          <div className={`card-stuff-img3`} tableData = {projects}>
-            <Card />
+          <div className={`card-stuff-img3`} >
+            <Card tableData = {projects} />
           </div>
-          <div className={`card-stuff-img4`} tableData = {factsTable}>
-            <Card />
+          <div className={`card-stuff-img4`}>
+            <Card  tableData = {factsTable} />
           </div>
           {/* {Array(4)
             .fill(4)
