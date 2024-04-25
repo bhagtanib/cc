@@ -28,7 +28,7 @@
   text-align: center;
   border: 2px solid black;
   padding: 20px 0;
-  gap: 30px;
+  gap: 50px;
 }
 
 
@@ -71,7 +71,7 @@
 }
 .card-stuff-img1{
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: 10px;
     height: 200px;
     width: 280px;
@@ -81,9 +81,9 @@
   background-image: url("https://img.icons8.com/small/64/one-to-many.png"); /* Background image */
   position: absolute;
   width: 60px;
-  height: 60px;
+  height: 65px;
   right: 40%;
-  top: 200px;
+  top: 234px;
   transform: rotate(90deg);
   background-size: cover; /* Adjust image size to fit within the containing element */
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@
   background-image: url("https://img.icons8.com/small/64/one-to-many.png"); /* Background image */
   position: absolute;
   width: 62px;
-  height: 62px;
+  height: 65px;
   top: 40%;
   left: -65px;
   transform: scale(-1,1);
@@ -105,7 +105,7 @@
 .card-stuff-img2{
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 100px;
     height: 200px;
     width: 280px;
 
@@ -113,14 +113,14 @@
 .card-stuff-img3{
     position: absolute;
     right: 10px;
-    top: 230px;
+    top: 400px;
     height: 200px;
     width: 280px;
 
 } 
 .card-stuff-img4 {
   position: absolute;
-  top: 270px;
+  top: 400px;
   left: 10px;
   height: 200px;
   width: 280px;

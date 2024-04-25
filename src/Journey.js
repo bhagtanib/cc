@@ -41,6 +41,7 @@ const Journey = () => {
           </div>
         </div>
         <div className="journey-application-container journey-dialog">
+        <span style={{ fontWeight: 600 }}>EXPOSE</span>
           <div className={`card-stuff-img1`}>
             <Card tableData={workExperience} />
           </div>
