@@ -8,7 +8,7 @@ import {
   projects,
   factsTable,
 } from "./data/tabledetails";
-import ArrowDown from "./images/arrowDown.png"
+import ArrowDown from "./images/arrowDown.png";
 const Journey = () => {
   const tables = [];
   return (
@@ -31,14 +31,27 @@ const Journey = () => {
         <div className="journey-mid-container journey-dialog">
           <span style={{ fontWeight: 600 }}>ORCHESTRATE</span>
           <div className="journey-dialog-images">
-            {images2.map((imageName) => (
-              <img
-                key={imageName}
-                src={`${process.env.PUBLIC_URL}/images/${imageName}`}
-                alt="Imagessss"
-              />
-              //console.log(`${process.env.PUBLIC_URL}/images/${imageName}`)
-            ))}
+            <div className="journey-dialog-images-mid-top">
+              {images2.top.map((imageName) => (
+                <img
+                  key={imageName}
+                  src={`${process.env.PUBLIC_URL}/images/${imageName}`}
+                  alt="Imagessss"
+                />
+              ))}
+              <span> footer of this block</span>
+            </div>
+
+            <div className="journey-dialog-images-mid-bottom">
+              {images2.bottom.map((imageName) => (
+                <img
+                  key={imageName}
+                  src={`${process.env.PUBLIC_URL}/images/${imageName}`}
+                  alt="Imagessss"
+                />
+              ))}
+              <span> footer of this block</span>
+            </div>
           </div>
         </div>
         <div className="journey-application-container journey-dialog">
