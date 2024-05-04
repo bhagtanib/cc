@@ -21,7 +21,7 @@ export const workExperience = {
         endDate:  "06",
         yearsWorked: "2.5",
         skillsLearned: "SQL, ETL, Python, GIT, DevOps, Azure Cloud, Data Factory, Snowflake, Power BI, MS SQL Server, Sigma Computing, Boomi, DBT",
-        contributionsMade: '<img src="https://img.icons8.com/dotty/80/external-link.png" alt="Icon">'
+        contributionsMade: ""
     },
     {
         workId: "f2cc0cf1-0bf6-4e67-9c13-e4a8bb8b6d47",
@@ -66,36 +66,43 @@ export const workExperience = {
         yearsWorked: "1",
         skillsLearned: "Leadership",
         contributionsMade: " "
-    },
-    {
-        workId: "bf6396a4-3704-4d6d-8d72-e08f6327889f",
-        companyName: "Whitworth University",
-        industry: "Education",
-        position: "Cultural Diversity Advocate (Leadership)",
-        startDate: "15 Nov 2021",
-        endDate:  "Present",
-        yearsWorked: "1",
-        skillsLearned: "Leadership",
-        contributionsMade: " "
     }
 ]
 }
 
 export const certificate = {
     header: "Certification",
-    heading: ["CertificationId", "CompanyName", "StartDate", "EndDate" ],
+    heading: ["certificationId", "companyName", "certificationLink" ],
     rows: [{
-        CertificationId: "abhe2",
-        CompanyName: "IBM",
-        StartDate: "15 Nov 2021",
-        EndDate:  "Present"
+        certificationId: "123",
+        companyName: "Google",
+        certificationLink: "Add link here"
     },
     {
-        CertificationId: "abhe2",
-        companyName: "Course Era",
-        StartDate: "11 APR 2021",
-        EndDate:  "Present"
+        certificationId: "456",
+        companyName: "Microsoft",
+        certificationLink: "Add link here"
     },
+    {
+        certificationId: "789",
+        companyName: "Meta",
+        certificationLink: "Add link here"
+    },
+    {
+        certificationId: "abhe2",
+        companyName: "University of California, Davis",
+        certificationLink: "Add link here"
+    },
+    {
+        certificationId: "abhe2",
+        companyName: "IBM",
+        certificationLink: "15 Nov 2021"
+    },
+    {
+        certificationId: "abhe2",
+        companyName: "IBM",
+        certificationLink: "15 Nov 2021"
+    }
 ]
 }
 export const projects = {

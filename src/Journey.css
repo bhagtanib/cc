@@ -78,7 +78,7 @@
 }
 .card-stuff-img1::after {
   content: ""; /* Empty content */
-  background-image: url("https://img.icons8.com/small/64/one-to-many.png"); /* Background image */
+  background-image: ; /* Background image */
   position: absolute;
   width: 60px;
   height: 65px;
