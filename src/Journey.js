@@ -16,7 +16,7 @@ const Journey = () => {
       <h1>From Source to Solution: Visualizing My Data Journey </h1>
       <div className="journey-container">
         <div className="journey-knowledge-container journey-dialog">
-          <span style={{ fontWeight: 600 }}>KNOWLEDGE SOURCE</span>
+          <span style={{ fontWeight: 1000 }}>KNOWLEDGE SOURCE</span>
           <div className="journey-dialog-images">
             {images1.map((imageName) => (
               <img
@@ -29,7 +29,7 @@ const Journey = () => {
           </div>
         </div>
         <div className="journey-mid-container journey-dialog">
-          <span style={{ fontWeight: 600 }}>ORCHESTRATE</span>
+          <span style={{ fontWeight: 1000 }}>ORCHESTRATE</span>
           <div className="journey-dialog-images">
             <div className="journey-dialog-images-mid-top">
               {images2.top.map((imageName) => (
@@ -39,7 +39,7 @@ const Journey = () => {
                   alt="Imagessss"
                 />
               ))}
-              <span> footer of this block</span>
+              <span style={{ fontWeight: 100 }}> INGEST </span>
             </div>
 
             <div className="journey-dialog-images-mid-bottom">
@@ -50,12 +50,12 @@ const Journey = () => {
                   alt="Imagessss"
                 />
               ))}
-              <span> footer of this block</span>
+              <span style={{ fontWeight: 100 }}> STORE </span>
             </div>
           </div>
         </div>
         <div className="journey-application-container journey-dialog">
-          <span style={{ fontWeight: 600 }}>EXPOSE</span>
+          <span style={{ fontWeight: 1000 }}>EXPOSE</span>
           <div className="card-dailog-bottom">
             <div className="card-dailog-left">
               <div className={`card-stuff-img1`}>
