@@ -96,8 +96,7 @@
 }
 .card-dailog-left img {
   width: 62px;
-  height: 65px;
-  transform: rotate(90deg);
+  height: 65px; 
   background-size: cover; /* Adjust image size to fit within the containing element */
   background-repeat: no-repeat;
 }

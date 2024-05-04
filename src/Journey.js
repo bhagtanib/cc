@@ -8,6 +8,7 @@ import {
   projects,
   factsTable,
 } from "./data/tabledetails";
+import ArrowDown from "./images/arrowDown.png"
 const Journey = () => {
   const tables = [];
   return (
@@ -47,7 +48,7 @@ const Journey = () => {
               <div className={`card-stuff-img1`}>
                 <Card tableData={workExperience} />
               </div>
-              <img src="https://img.icons8.com/small/64/one-to-many.png" />
+              <img src={ArrowDown} />
               <div className={`card-stuff-img4`}>
                 <Card tableData={factsTable} />
               </div>
