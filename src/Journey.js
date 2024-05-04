@@ -9,6 +9,7 @@ import {
   factsTable,
 } from "./data/tabledetails";
 import ArrowDown from "./images/arrowDown.png";
+import ArrowLeft from "./images/arrowLeft.png";
 const Journey = () => {
   const tables = [];
   return (
@@ -66,6 +67,7 @@ const Journey = () => {
                 <Card tableData={factsTable} />
               </div>
             </div>
+            {/* <img className="arrow-left" src = {ArrowLeft} /> */}
             <div className="card-dailog-right">
               <div className={`card-stuff-img2`}>
                 <Card tableData={certificate} />

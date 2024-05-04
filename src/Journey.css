@@ -66,7 +66,8 @@
   position: relative;
 }
 
-.journey-dialog-images-mid-top, .journey-dialog-images-mid-bottom{
+.journey-dialog-images-mid-top,
+.journey-dialog-images-mid-bottom {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
@@ -94,23 +95,42 @@
 
 .card-dailog-left,
 .card-dailog-right {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.card-dailog-left {
+  padding-left: 20px;
+  position: relative;
+}
+.card-dailog-right {
+  padding-right: 20px;
+}
 .card-dailog-left img {
-  width: 62px;
-  height: 65px; 
+  width: 60px;
+  height: 60px;
   background-size: cover; /* Adjust image size to fit within the containing element */
   background-repeat: no-repeat;
 }
-.card-dailog-right{
+.card-dailog-right {
   justify-content: space-between;
 }
 
-.card-dailog-bottom{
+.card-dailog-bottom {
   display: flex;
-  gap: 60px;
+  gap: 70px;
+}
+.card-dailog-left::before {
+  content: "";  /* No longer using URL here */
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  bottom: 80px;
+  left: 270px;
+  background-image: url("./images/arrowLeft.png");
+  background-size: contain;  /* Fit the image nicely inside the element, could also be 'cover' or a specific px/em/% dimension */
+  background-repeat: no-repeat;
+  background-position: center;  /* Center the background image within the element */
 }
