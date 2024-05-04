@@ -5,7 +5,10 @@ const Table = ({ tableInfo }) => {
   console.log(tableInfo);
   const linking = (link) => {
     return (
-      <span onClick={() => window.open(link, "_blank", "noopener,noreferrer")}>
+      <span
+        style={{ cursor: "pointer" }}
+        onClick={() => window.open(link, "_blank", "noopener,noreferrer")}
+      >
         link
       </span>
     );
