@@ -20,8 +20,11 @@ const Journey = () => {
           <div className="journey-dialog-images">
             {images1.map((imageName) => (
               <img
-                key={imageName}
-                src={`${process.env.PUBLIC_URL}/images/${imageName}`}
+                onClick={() =>
+                  window.open(imageName.link, "_blank", "noopener,noreferrer")
+                }
+                key={imageName.name}
+                src={`${process.env.PUBLIC_URL}/images/${imageName.name}`}
                 alt="Imagessss"
               />
               //console.log(`${process.env.PUBLIC_URL}/images/${imageName}`)
@@ -34,9 +37,12 @@ const Journey = () => {
             <div className="journey-dialog-images-mid-top">
               {images2.top.map((imageName) => (
                 <img
-                  key={imageName}
-                  src={`${process.env.PUBLIC_URL}/images/${imageName}`}
-                  alt="Imagessss"
+                  onClick={() =>
+                    window.open(imageName.link, "_blank", "noopener,noreferrer")
+                  }
+                  key={imageName.name}
+                  src={`${process.env.PUBLIC_URL}/images/${imageName.name}`}
+                  alt="Imag"
                 />
               ))}
               <span> INGEST </span>
@@ -45,8 +51,8 @@ const Journey = () => {
             <div className="journey-dialog-images-mid-bottom">
               {images2.bottom.map((imageName) => (
                 <img
-                  key={imageName}
-                  src={`${process.env.PUBLIC_URL}/images/${imageName}`}
+                  key={imageName.name}
+                  src={`${process.env.PUBLIC_URL}/images/${imageName.name}`}
                   alt="Imagessss"
                 />
               ))}

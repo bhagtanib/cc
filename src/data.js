@@ -1,14 +1,14 @@
 export const images1 = [
-  "Whitworth.png",
-  "Books.png",
-  "Python, SQL.png",
-  "Coding Practice.png",
-  "Courses.png",
+  { name: "Whitworth.png", link: "https://stackoverflow.com/"},
+  { name: "Books.png", link: ""},
+  { name: "Python, SQL.png", link: ""},
+  { name: "Coding Practice.png", link: ""},
+  { name: "Courses.png", link: ""}
 ];
 
 export const images2 = {
-  top: ["Notion.png", "Confluence.png"],
-  bottom: ["My Brain.png"],
+  top: [{ name: "Notion.png", link: "" },{ name: "Confluence.png", link: ""} ],
+  bottom: [{ name: "My Brain.png",  link: ""}]
 };
 export const work = [
   {
