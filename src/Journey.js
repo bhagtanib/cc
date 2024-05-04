@@ -41,26 +41,26 @@ const Journey = () => {
           </div>
         </div>
         <div className="journey-application-container journey-dialog">
-        <span style={{ fontWeight: 600 }}>EXPOSE</span>
-          <div className={`card-stuff-img1`}>
-            <Card tableData={workExperience} />
-          </div>
-          <div className={`card-stuff-img2`}>
-            <Card tableData={certificate} />
-          </div>
-          <div className={`card-stuff-img3`}>
-            <Card tableData={projects} />
-          </div>
-          <div className={`card-stuff-img4`}>
-            <Card tableData={factsTable} />
-          </div>
-          {/* {Array(4)
-            .fill(4)
-            .map((num, index) => (
-              <div className={`card-stuff-img${index + 1}`}>
-                <Card />
+          <span style={{ fontWeight: 600 }}>EXPOSE</span>
+          <div className="card-dailog-bottom">
+            <div className="card-dailog-left">
+              <div className={`card-stuff-img1`}>
+                <Card tableData={workExperience} />
               </div>
-            ))} */}
+              <img src="https://img.icons8.com/small/64/one-to-many.png" />
+              <div className={`card-stuff-img4`}>
+                <Card tableData={factsTable} />
+              </div>
+            </div>
+            <div className="card-dailog-right">
+              <div className={`card-stuff-img2`}>
+                <Card tableData={certificate} />
+              </div>
+              <div className={`card-stuff-img3`}>
+                <Card tableData={projects} />
+              </div>
+            </div>
+          </div>{" "}
         </div>
       </div>
     </div>

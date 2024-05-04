@@ -1,5 +1,5 @@
-.journey-page{
-  height: 100vh;
+.journey-page {
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -8,19 +8,20 @@
   gap: 30px;
 }
 
-.journey-page > h1{
- width: 100%;
- text-align: center;
+.journey-page > h1 {
+  width: 100%;
+  text-align: center;
 }
 
 .journey-container {
   display: flex;
   gap: 100px;
 }
-.journey-dialog{
+.journey-dialog {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  min-height: 80vh;
+  height: fit-content;
   width: 250px;
   background-color: white;
   color: black;
@@ -30,7 +31,6 @@
   padding: 20px 0;
   gap: 50px;
 }
-
 
 .journey-dialog-images {
   display: flex;
@@ -65,63 +65,47 @@
   width: 650px;
   position: relative;
 }
-.journey-mid-container span{
+.journey-mid-container span {
   min-height: 100px;
+}
+.card-stuff-img1 {
+  position: relative;
+  width: 250px;
+}
 
+.card-stuff-img2 {
+  height: 200px;
+  width: 250px;
 }
-.card-stuff-img1{
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    height: 200px;
-    width: 280px;
+.card-stuff-img3 {
+  height: 200px;
+  width: 250px;
 }
-.card-stuff-img1::after {
-  content: ""; /* Empty content */
-  background-image: url("https://img.icons8.com/small/64/one-to-many.png"); /* Background image */
-  position: absolute;
-  width: 60px;
+.card-stuff-img4 {
+  height: 150px;
+  width: 250px;
+}
+
+.card-dailog-left,
+.card-dailog-right {
+  padding: 0 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-dailog-left img {
+  width: 62px;
   height: 65px;
-  right: 40%;
-  top: 240px;
   transform: rotate(90deg);
   background-size: cover; /* Adjust image size to fit within the containing element */
   background-repeat: no-repeat;
-
 }
-.card-stuff-img3::after {
-  content: ""; /* Empty content */
-  background-image: url("https://img.icons8.com/small/64/one-to-many.png"); /* Background image */
-  position: absolute;
-  width: 62px;
-  height: 65px;
-  top: 40%;
-  left: -65px;
-  transform: scale(-1,1);
-  background-size: cover; /* Adjust image size to fit within the containing element */
-  background-repeat: no-repeat;
-
+.card-dailog-right{
+  justify-content: space-between;
 }
-.card-stuff-img2{
-    position: absolute;
-    right: 10px;
-    top: 50px;
-    height: 200px;
-    width: 280px;
 
-}
-.card-stuff-img3{
-    position: absolute;
-    right: 10px;
-    top: 300px;
-    height: 200px;
-    width: 280px;
-
-} 
-.card-stuff-img4 {
-  position: absolute;
-  top: 350px;
-  left: 10px;
-  height: 150px;
-  width: 280px;
+.card-dailog-bottom{
+  display: flex;
+  gap: 60px;
 }
