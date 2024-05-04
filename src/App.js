@@ -8,18 +8,16 @@ import { helix } from "ldrs";
 import { motion, AnimatePresence } from "framer-motion";
 import Project from "./components/Project";
 import Projects from "./Pages/Projects";
-import Journey from "./Journey"
-
+import Journey from "./Journey";
 
 function App() {
-
-  const aboutRef = useRef()
+  const aboutRef = useRef();
 
   const Loader = () => (
     <motion.div
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
-      transition={{ duration: .5 }}
+      transition={{ duration: 0.5 }}
       className="loader"
       style={{
         justifyContent: "center",
@@ -47,24 +45,23 @@ function App() {
 
   return (
     <div>
-
-      <Journey />
-      {/* <Loader />
+      <Loader />
       {!isLoading && (
         <AnimatePresence>
           <motion.div
             className={`App `}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: .5, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
           >
-            <Hero aboutRef = {aboutRef} />
-            <BackgroudPage aboutRef = {aboutRef} />
+            <Hero aboutRef={aboutRef} />
+            <Journey />
+            <BackgroudPage aboutRef={aboutRef} />
             <Experience />
             <Projects />
           </motion.div>
         </AnimatePresence>
-      )} */}
+      )}
     </div>
   );
 }
