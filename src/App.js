@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <Loader />
+      {/* <Loader /> */}
       {!isLoading && (
         <AnimatePresence>
           <motion.div
