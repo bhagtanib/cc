@@ -89,7 +89,7 @@ const Journey = () => {
                   alt="Imag"
                 />
               ))}
-              <span> INGEST </span>
+              <span className="small-text"> INGEST </span>
             </div>
 
             <div className="journey-dialog-images-mid-bottom">
@@ -100,7 +100,7 @@ const Journey = () => {
                   alt="Imagessss"
                 />
               ))}
-              <span> STORE </span>
+              <span className="small-text"> STORE </span>
             </div>
           </div>
         </div>
