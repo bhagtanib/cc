@@ -17,6 +17,11 @@
   display: flex;
   gap: 100px;
 }
+
+.journey-dialog span {
+  font-weight: 600;
+}
+
 .journey-dialog {
   display: flex;
   flex-direction: column;
@@ -73,7 +78,6 @@
   border: 2px solid black;
   padding: 20px 0;
   margin: 20px;
-  font-weight: 600;
 }
 .card-stuff-img1 {
   position: relative;
