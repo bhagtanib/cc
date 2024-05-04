@@ -3,15 +3,21 @@ import "./Table.css";
 
 const Table = ({ tableInfo }) => {
   console.log(tableInfo);
+  const linking = (link) => {
+    return (
+      <span onClick={() => window.open(link, "_blank", "noopener,noreferrer")}>
+        link
+      </span>
+    );
+  };
   return (
     <div className="table-container">
       <table>
         <thead>
           <tr>
-            {tableInfo.heading.map((col) => (
-              <th>{col}</th>
+            {tableInfo.heading.map((col, index) => (
+              <th key={index}>{col}</th>
             ))}
-            {/* Add more column headers as needed */}
           </tr>
         </thead>
         <tbody>
@@ -19,7 +25,7 @@ const Table = ({ tableInfo }) => {
             <tr key={rowIndex}>
               {Object.keys(row).map((key, keyIndex) => (
                 <td key={keyIndex} style={{ fontWeight: 300 }}>
-                  {row[key]}
+                  {key === "Link" ? linking(row[key]) : row[key]}
                 </td>
               ))}
             </tr>

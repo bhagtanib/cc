@@ -72,36 +72,36 @@ export const workExperience = {
 
 export const certificate = {
     header: "Certification",
-    heading: ["certificationId", "companyName", "certificationLink" ],
+    heading: ["certificationId", "companyName", "Link" ],
     rows: [{
         certificationId: "123",
         companyName: "Google",
-        certificationLink: "Add link here"
+        Link: "https://google.com"
     },
     {
         certificationId: "456",
         companyName: "Microsoft",
-        certificationLink: "Add link here"
+        Link: "Add link here"
     },
     {
         certificationId: "789",
         companyName: "Meta",
-        certificationLink: "Add link here"
+        Link: "Add link here"
     },
     {
         certificationId: "abhe2",
         companyName: "University of California, Davis",
-        certificationLink: "Add link here"
+        Link: "Add link here"
     },
     {
         certificationId: "abhe2",
         companyName: "IBM",
-        certificationLink: "15 Nov 2021"
+        Link: "15 Nov 2021"
     },
     {
         certificationId: "abhe2",
         companyName: "IBM",
-        certificationLink: "15 Nov 2021"
+        Link: "15 Nov 2021"
     }
 ]
 }
