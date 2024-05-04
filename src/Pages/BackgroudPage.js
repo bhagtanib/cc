@@ -52,11 +52,11 @@ const BackgroudPage = ({ aboutRef }) => {
               once: true,
             }}
           >
-            My journey towards software engineering  began in high school, fueled
+            My journey towards Data Domain began in high school, fueled
             by a desire to simplify the learning experience for myself and
             others. I started by tinkering with code, building a simple website
             platform for students to share study materials. This project ignited
-            my curiosity and led me to pursue a degree in Computer Science.
+            my curiosity and led me to pursue a degree in Applied Math Data Science.
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -79,9 +79,9 @@ const BackgroudPage = ({ aboutRef }) => {
               once: true,
             }}
           >
-            Proficient in object-oriented programming languages such as
-            JavaScript, Python, and C++, I specialize in developing full-stack
-            web app solutions.
+            Proficient in data manipulation and extraction languages such as
+            Python, and SQL, I specialize in developing models for both OLTP and OLTX databases,
+            ETL pipelines, and visualizations.
           </motion.p>
           
         </div>

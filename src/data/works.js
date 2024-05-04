@@ -1,9 +1,9 @@
 export const works = [
   {
-    title: "Full Stack Developer",
-    company: "Spokane Fatherhood Initiative",
-    acronym: "SFI",
-    timeline: "Mar 2023 - May 2023",
+    title: "Data Analytics Engineer",
+    company: "Treasury4",
+    acronym: "T4",
+    timeline: "Nov 2021 - Present",
     desc: [
       `Designed and implemented a highly engaging management system which centralized client’s data from 4+ sources in a
           relational database, reducing duplicate efforts to modify data leading to 30% reduction in administrative workload.`,

@@ -55,8 +55,8 @@ function App() {
             transition={{ duration: 0.5, delay: 0.5 }}
           >
             <Hero aboutRef={aboutRef} />
-            <Journey />
             <BackgroudPage aboutRef={aboutRef} />
+            <Journey />
             <Experience />
             <Projects />
           </motion.div>

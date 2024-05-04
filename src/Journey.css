@@ -6,11 +6,26 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  background-color: rgb(208, 208, 208);
 }
 
-.journey-page > h1 {
+.journey-header p {
+  font-size: 26px;
+  margin-bottom:2rem;
+  text-align: left;
+}
+
+.journey-header {
+  /* background-color: black; */
+  position: relative;
+}
+.journey-header-line {
+  min-height: 2px;
   width: 100%;
-  text-align: center;
+  position: relative;
+  background-color: #8892b0;
+  position: absolute;
+  bottom: 12px; /* Add unit (e.g., px) */
 }
 
 .journey-container {
@@ -28,7 +43,7 @@
   min-height: 80vh;
   height: auto;
   width: 250px;
-  background-color: white;
+  background-color: rgb(208, 208, 208);
   color: black;
   border-radius: 10px;
   text-align: center;
@@ -137,4 +152,42 @@
   background-size: contain;  /* Fit the image nicely inside the element, could also be 'cover' or a specific px/em/% dimension */
   background-repeat: no-repeat;
   background-position: center;  /* Center the background image within the element */
+}
+
+.info-button {
+  position: relative;
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  padding: 5px; /* Adjust padding to control the size of the circle */
+  z-index: 1; /* Ensure the button stays above the circle */
+}
+
+.info-button::before {
+  content: ''; /* Add content to the pseudo-element */
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  width: 30px; /* Set width and height to create a circle */
+  height: 30px;
+  border: 2px solid black; /* Add black border */
+  border-radius: 50%; /* Make it a circle */
+  background-color: transparent; /* Set transparent background */
+}
+
+.info-box {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }

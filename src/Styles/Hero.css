@@ -28,8 +28,7 @@
   z-index: 3;
   box-sizing: border-box;
   height: calc(100vh - 2rem);
-  width: calc(100vw - 2rem);
-  max-width: 70%;
+  width: 50vw;
   display: flex;
   border-radius: 10px;
   flex-direction: column;

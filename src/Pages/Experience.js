@@ -20,7 +20,7 @@ const Experience = () => {
     <div className="experience-container">
       <div className="experience-header">
         <p>
-          <span>02. </span>Where I have worked
+          <span>03. </span>My Work Experience
         </p>
         <span className="experience-header-line"></span>
       </div>

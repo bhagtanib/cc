@@ -35,7 +35,7 @@ const Hero = (aboutRef) => {
               once: true,
             }}
           >
-            Bhavesh Bhagtani
+            Mradul Mourya
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: -3 }}
@@ -45,8 +45,8 @@ const Hero = (aboutRef) => {
               once: true,
             }}
           >
-            I build things{" "}
-            <span style={{ transform: "rotate(90deg)" }}>for the web</span>{" "}
+            Passionate about harnessing the power of data to drive innovation.{" "}
+            <span style={{ transform: "rotate(90deg)" }}></span>{" "}
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: -3 }}
@@ -56,33 +56,11 @@ const Hero = (aboutRef) => {
               once: true,
             }}
           >
-            I’m a software engineer  specializing in building (and occasionally
-            designing) exceptional digital experiences.{" "}
+            I specialize in crafting data-driven solutions,
+            integrating modeling and visualization to fuel product innovation and enhance user experiences.{" "}
           </motion.p>
 
-          <motion.img
-            className="img-button"
-            width="64"
-            height="64"
-            src="https://img.icons8.com/glyph-neue/64/circled-chevron-down.png"
-            alt="circled-chevron-down"
-            color="primary"
-            variant="bordered"
-            initial={{ opacity: 0, x: -3 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 3.3, duration: 3 }}
-            viewport={{
-              once: true,
-            }}
-            onClick={() => {
-              console.log(aboutRef.aboutRef.current);
-              // if (aboutRef.current) {
-                aboutRef.aboutRef.current.scrollIntoView({
-                  behavior: 'smooth'
-                });
-              // }
-            }}
-          />
+          
         </motion.div>
       </motion.div>
     </motion.div>
