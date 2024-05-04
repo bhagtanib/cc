@@ -71,7 +71,7 @@
 }
 .card-stuff-img1{
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 10px;
     height: 200px;
     width: 280px;
@@ -83,7 +83,7 @@
   width: 60px;
   height: 65px;
   right: 40%;
-  top: 234px;
+  top: 240px;
   transform: rotate(90deg);
   background-size: cover; /* Adjust image size to fit within the containing element */
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@
 .card-stuff-img2{
     position: absolute;
     right: 10px;
-    top: 100px;
+    top: 50px;
     height: 200px;
     width: 280px;
 
@@ -113,14 +113,14 @@
 .card-stuff-img3{
     position: absolute;
     right: 10px;
-    top: 400px;
+    top: 300px;
     height: 200px;
     width: 280px;
 
 } 
 .card-stuff-img4 {
   position: absolute;
-  top: 400px;
+  top: 350px;
   left: 10px;
   height: 200px;
   width: 280px;
