@@ -20,7 +20,7 @@ const Hero = (aboutRef) => {
           <motion.p
             initial={{ opacity: 0, x: -3 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 2, duration: 3 }}
+            transition={{ delay: 1.5, duration: 3 }}
             viewport={{
               once: true,
             }}
@@ -30,7 +30,7 @@ const Hero = (aboutRef) => {
           <motion.p
             initial={{ opacity: 0, x: -3 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 2.3, duration: 3 }}
+            transition={{ delay: 1.8, duration: 3 }}
             viewport={{
               once: true,
             }}
@@ -40,7 +40,7 @@ const Hero = (aboutRef) => {
           <motion.p
             initial={{ opacity: 0, x: -3 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 2.6, duration: 3 }}
+            transition={{ delay: 2.1, duration: 3 }}
             viewport={{
               once: true,
             }}
@@ -51,7 +51,7 @@ const Hero = (aboutRef) => {
           <motion.p
             initial={{ opacity: 0, x: -3 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 3, duration: 3 }}
+            transition={{ delay: 2.5, duration: 3 }}
             viewport={{
               once: true,
             }}

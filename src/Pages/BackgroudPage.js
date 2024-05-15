@@ -5,19 +5,14 @@ import { motion } from "framer-motion";
 
 const BackgroudPage = ({ aboutRef }) => {
   const skillsList = [
-    "devicon-react-original",
+    "devicon-python-plain",
     "devicon-mysql-original",
-    "devicon-express-original",
-    "devicon-vuejs-plain",
     "devicon-amazonwebservices-plain-wordmark",
     "devicon-azure-plain",
     "devicon-docker-plain",
-    "devicon-kubernetes-plain",
-    "devicon-nodejs-plain",
-    "devicon-javascript-plain",
-    "devicon-python-plain",
-    "devicon-cplusplus-plain",
     "devicon-csharp-plain",
+    "devicon-sqlite-plain",
+    "devicon-vscode-plain",
   ];
   return (
     <div className="black-background" id="about" ref={aboutRef}>

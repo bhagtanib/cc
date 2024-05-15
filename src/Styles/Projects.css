@@ -1,5 +1,6 @@
 .project-lists-container{
     background-color: var(--lightest-grey);
+    color: black;
 }
 .projects-list
 {

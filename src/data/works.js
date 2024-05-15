@@ -2,40 +2,48 @@ export const works = [
   {
     title: "Data Analytics Engineer",
     company: "Treasury4",
-    acronym: "T4",
+    acronym: "Treasury4",
     timeline: "Nov 2021 - Present",
     desc: [
-      `Designed and implemented a highly engaging management system which centralized client’s data from 4+ sources in a
-          relational database, reducing duplicate efforts to modify data leading to 30% reduction in administrative workload.`,
-      `Led a team of 3 frontend developers using JavaScript and React JS to create a minimalist UI design`,
-      `Developed APIs powered by Node.js backend to interact with the hosted AWS database facilitating seamless data access
-          and manipulation with search functionalities`,
+      `Implemented Snowflake's in-built Forecasting Models for Cash Flow Forecasting. Replaced complex SQL with Snowflake’s Machine Learning functions, 
+      enhancing filtering, customization, and scalability. Resulted in 5 customer adoptions of MVP within the first week.`,
+      `Drove the engineering of Python Data Obfuscator, replicating anonymized customer for secure testing. Improved data quality by 40% in development environment.`,
+      `Migrated OLTP Cash and Entity application Data Models to OLAP Dimensional Models in Power BI (later migrated to Snowflake). 
+      Boosted 30% reporting performance and reduced 50% report creation time.`,
+      `Researched and streamlined Power BI development by establishing seamless Git integration, 
+      empowering team with version control through cross-training. Doubled the rate of pull requests reviews within 2 weeks.`,
+      `Automated reference data ingestion ETL pipeline using Azure Data Factory and documented optimization opportunities. 
+      Reduced manual effort by 60% while streamlining data flow.`,
+      `Orchestrated the successful migration of Data stack to Snowflake& Sigma Computing, streamlining operations, enabling seamless customer data access, 
+      and driving data-driven decision making`
     ],
   },
 
   {
-    title: "Software Engineering Intern",
-    company: "Washington Trust Bank",
-    acronym: "WTB",
-    timeline: "Jan 2023 - July 2023",
+    title: "Data Analyst Intern",
+    company: "Medcurity",
+    acronym: "Medcurity",
+    timeline: "Jan 2022 - May 2023",
     desc: [
-      `Developed a first-time homebuyer benefits page for a platform leveraging Tailwind CSS framework, driving a 20%
-          uptick in website traffic and a 50% boost in attendance with educational resources in three months.
-          `,
-      `Engineered a JSON message queue to solve concurrent message processing in a group chat environment using Azure
-          blob storage, resulting in 99% reduction in data concurrency out-of-sequence messages`,
-      `Implemented website accessibility features that meet the WCAG 2.1 guidelines for 15+ Vue.js components with audio,
-          color, contrast, and flow resulting in increased accessibility standards and improved UX for all visitors`,
+      `Constructed relational database from scratch for the web application, 
+      utilizing 3NF normalization and query optimization for enhanced performance. Achieved 25% increase in data retrieval efficiency.`,
+      `Automated daily data ingestion for a HIPAA compliance platform, extracting data from OCR portals and data breach news sources 
+      using Python. Attained a 40% faster trigger and loading process with RLS in Supabase.`,
+      `Empowered front-end developers to integrate visualizations on the website. Included breach information with filters, 
+      results for HIPAA risk assessment, real-time breach updates, and an interactive risk calculator output.`,
     ],
   },
   {
-    title: "Tutor",
-    company: "University of South Florida",
-    acronym: "USF",
-    timeline: "Jan 2023 - May 2023",
+    title: "Data Science Teaching Assistant and Success Coach",
+    company: "Whitworth University",
+    acronym: "WU",
+    timeline: "Aug 2020 - May 2022",
     desc: [
-      `Taught programming concepts and best practices of coding in C++ to 20 students.`,
-      `Planned lessons for the allotted time to strengthen weak parts, build analytical, and debugging skills.`,
+      `Analyzed over 50 student MySQL relational databases and Excel projects for proficient use of SQL, 
+      normalization practices, and statistical formulas.`,
+      `Help students explore strategies and develop skills in effective time management, studying, note-taking, and organization.`,
+      `Met 10+ students weekly for 30 minutes and assist them according to their needs.`,
+      `Help other departments for creating better academic assessments for students.`
     ],
   },
 ];

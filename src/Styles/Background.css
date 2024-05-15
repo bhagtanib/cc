@@ -49,8 +49,8 @@ background-color: #3a3c3a;
   flex-wrap: wrap;
 }
 .skill-logos i {
-  font-size: 35px;
-  color: #8e9392;  /*#086f57*/
+  font-size: 50px;
+  color: #8e9392;  /*#086f57   8e9392*/
 }
 
 @media screen and (max-width: 760px) {
